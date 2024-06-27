@@ -1,12 +1,13 @@
 About the Project:
-Digital Mart is an e-commerce platform that allows users to browse and purchase products online. It provides a seamless shopping experience with a wide range of products, secure payment options, and fast delivery.
+Digital Mart is an online platform designed to facilitate interactions between sellers and buyers. Sellers can list their items for sale, and buyers can browse through these listings and contact sellers directly make inquiries. The platform provides a simple and user-friendly interface for both parties to connect and conduct transactions.
 
 Features:
 User-friendly interface
-Secure user authentication and authorization
-Product search and filtering
-Shopping cart and checkout process
-Admin panel for product management
+User Registration: Easy signup and login for both sellers and buyers.
+Seller Listings: Sellers can create and manage item listings with descriptions, prices, and images.
+Buyer Browsing: Buyers can browse listed items by category or search for specific items.
+Contact Sellers: Buyers can contact sellers directly through the platform to negotiate and arrange purchases.
+Profile Management: Both buyers and sellers can update their profiles and manage their account settings.
 
 
 Technologies Used:
