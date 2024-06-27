@@ -1,0 +1,77 @@
+/* productDetails.css */
+
+/* Container styling */
+.product-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Image styling */
+.product-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Product details section */
+.product-details {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Text styling */
+.product-details h6 {
+    margin-top: 15px;
+    color: #555;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.product-details .price-text {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Contact button styling */
+.product-details button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    align-self: start;
+}
+
+.product-details button:hover {
+    background-color: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+    }
+
+    .product-details {
+        padding: 10px 0;
+    }
+
+    .product-details button {
+        align-self: center;
+    }
+}

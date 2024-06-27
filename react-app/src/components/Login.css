@@ -1,0 +1,106 @@
+/* Define CSS variables for reusability */
+:root {
+    --primary-color: #1b723b;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --input-background-color: #ffffff;
+    --input-border-color: #ced4da;
+    --button-background-color: var(--primary-color);
+    --button-text-color: #ffffff;
+    --link-color: var(--primary-color);
+}
+
+/* Styling the container to center the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+/* Styling the login box */
+.login-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Styling the headings */
+.login-box h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* Styling form group for consistent spacing */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Styling the input fields */
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    background-color: var(--input-background-color);
+    transition: border-color 0.3s;
+}
+
+/* Change border color on focus */
+.form-control:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* Styling the button group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Styling the buttons */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--button-text-color);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Change button colors on hover */
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary:hover {
+    background-color: darken(var(--secondary-color), 10%);
+    text-decoration: none;
+}
+
+/* Ensure links look like buttons */
+.btn-secondary:link,
+.btn-secondary:visited {
+    color: var(--button-text-color);
+    text-decoration: none;
+}
